@@ -69,9 +69,9 @@ top:
     cost: 9.3
 
 jungle:
-  - name: AEGIS
-    team: RED
-    cost: 10.0
+#  - name: AEGIS
+#    team: RED
+#    cost: 10.0
   - name: BLABER
     team: C9
     cost: 10.3

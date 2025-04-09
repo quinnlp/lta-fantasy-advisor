@@ -11,8 +11,13 @@ COST = "cost"
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("filepath", help="yaml file containing the LTA fantasy state")
-    parser.add_argument("-s", "--sort", default=2, type=int, help="column index to sort role tables (decreasing)")
+    parser.add_argument("-k", "--key", default=0, type=int, help="column index to sort role tables")
+    parser.add_argument("-r", "--reverse", action="store_true", default=False, help="sort column in reverse order")
     args = parser.parse_args()
+
+    if args.key < 0 or args.key > 4:
+        print(f"Error: invalid key '{args.key}'")
+        exit(1)
 
     with open(args.filepath) as file:
         yamlfile = yaml.safe_load(file)
@@ -31,8 +36,9 @@ def main():
         opponent_table = []
         for team, opponent_list in opponent_dict.items():
             opponent_table.append([team, opponent_list])
+
         opponent_table.sort()  # sort alphabetically
-        print(tabulate.tabulate(opponent_table, headers=["Teams", "Matches"]))
+        print(tabulate.tabulate(opponent_table, headers=[TEAM, "opponents"]))
         print()
 
         for role in ["top", "jungle", "mid", "bottom", "support"]:
@@ -51,11 +57,12 @@ def main():
                 for opponent in opponent_dict[player_dict[TEAM]]:
                     cost_against += role_dict[opponent] 
                     cost_against_str += f" - {role_dict[opponent]}"
+
                 cost_against_str += " ="
 
                 role_table.append([player_dict[NAME], player_dict[TEAM], player_dict[COST], cost_against_str, player_dict[COST] - cost_against])
-                role_table.sort(key=lambda x: x[args.sort], reverse=True)  # sort decreasing cost
 
+            role_table.sort(key=lambda x: x[args.key], reverse=args.reverse)
             print(tabulate.tabulate(role_table, headers=[NAME, TEAM, COST, "computation", "value"]))
             print()
 
