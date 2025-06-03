@@ -1,0 +1,147 @@
+matches:
+  - [LOUD, IE]
+  - [TL, DIG]
+  - [VKS, RED]
+  - [SR, 100T]
+
+top:
+  - name: BOAL
+    team: VKS
+    cost: 9.9
+#  - name: BURDOL
+#    team: IE 
+#    cost: 7.0
+  - name: FNB
+    team: RED
+    cost: 11.3
+  - name: FUDGE
+    team: SR
+    cost: 7.8
+  - name: IMPACT
+    team: TL
+    cost: 9.2
+  - name: ROBO
+    team: LOUD
+    cost: 10.4
+  - name: SNIPER
+    team: 100T
+    cost: 9.5
+  - name: SRTTY
+    team: DIG 
+    cost: 6.5
+  - name: SUMMIT
+    team: IE
+    cost: 7.6
+
+jungle:
+  - name: AEGIS
+    team: RED
+    cost: 10.9
+  - name: CONTRACTZ
+    team: SR
+    cost: 8.3
+  - name: DISAMIS
+    team: VKS
+    cost: 12.8
+#  - name: DOOM
+#    team: RED
+#    cost: 9.2
+  - name: JOSEDEODO
+    team: IE 
+    cost: 10.5
+  - name: RIVER
+    team: 100T
+    cost: 12.5
+  - name: SHEIDAN
+    team: DIG 
+    cost: 7.9
+  - name: SHINI
+    team: LOUD
+    cost: 8.7
+#  - name: UMTI
+#    team: TL
+#    cost: 10.1
+  - name: YUUJI
+    team: TL
+    cost: 6.0
+
+mid:
+  - name: APA
+    team: TL
+    cost: 10.4
+  - name: GREVTHAR
+    team: RED
+    cost: 9.8
+  - name: KEINE
+    team: DIG 
+    cost: 7.9
+  - name: KISEE
+    team: VKS
+    cost: 9.6
+#  - name: MAGO
+#    team: RED
+#    cost: 8.7
+  - name: MIREU
+    team: IE 
+    cost: 10.3
+  - name: PALAFOX
+    team: SR
+    cost: 7.9
+  - name: QUID
+    team: 100T
+    cost: 15.2
+  - name: TINOWNS
+    team: LOUD
+    cost: 9.0
+
+bottom:
+  - name: BRANCE
+    team: RED
+    cost: 13.8
+  - name: BVOY
+    team: SR
+    cost: 9.6
+  - name: FBI
+    team: 100T
+    cost: 13.1
+  - name: MORTTHEUS
+    team: VKS
+    cost: 12.0
+  - name: ROUTE
+    team: LOUD
+    cost: 10.9
+  - name: SNAKER
+    team: IE 
+    cost: 8.8
+  - name: TOMO
+    team: DIG 
+    cost: 8.2
+  - name: YEON
+    team: TL
+    cost: 12.5
+
+support:
+  - name: ACKERMAN
+    team: IE 
+    cost: 10.4
+  - name: CEOS
+    team: SR
+    cost: 6.8
+  - name: COREJJ
+    team: TL
+    cost: 12.5
+  - name: EYLA
+    team: 100T
+    cost: 12.9
+  - name: FROSTY
+    team: RED
+    cost: 13.3
+  - name: ISLES
+    team: DIG 
+    cost: 9.0
+  - name: REDBERT
+    team: LOUD
+    cost: 9.3
+  - name: TRYMBI
+    team: VKS
+    cost: 11.9

@@ -1,0 +1,141 @@
+matches:
+  - [VKS, IE]
+  - [FLY, C9]
+  - [PAIN, FUR]
+  - [SR, TL]
+
+top:
+  - name: BOAL
+    team: VKS
+    cost: 9.8
+#  - name: BURDOL
+#    team: IE 
+#    cost: 7.0
+  - name: BWIPO
+    team: FLY
+    cost: 15.2
+  - name: FUDGE
+    team: SR
+    cost: 8.8
+  - name: GUIGO
+    team: FUR
+    cost: 12.4
+  - name: IMPACT
+    team: TL
+    cost: 9.4
+  - name: SUMMIT
+    team: IE
+    cost: 7.7
+  - name: THANATOS
+    team: C9
+    cost: 10.6
+  - name: WIZER
+    team: PAIN
+    cost: 12.8
+
+jungle:
+  - name: BLABER
+    team: C9
+    cost: 12.7
+  - name: CARIOK
+    team: PAIN
+    cost: 14.3
+  - name: CONTRACTZ
+    team: SR
+    cost: 9.3
+  - name: DISAMIS
+    team: VKS
+    cost: 12.5
+  - name: INSPIRED
+    team: FLY
+    cost: 14.9
+  - name: JOSEDEODO
+    team: IE 
+    cost: 10.4
+  - name: TATU
+    team: FUR
+    cost: 13.8
+#  - name: UMTI
+#    team: TL
+#    cost: 10.1
+  - name: YUUJI
+    team: TL
+    cost: 6.5
+
+mid:
+  - name: APA
+    team: TL
+    cost: 10.9
+  - name: KISEE
+    team: VKS
+    cost: 10.1
+  - name: LOKI
+    team: C9
+    cost: 13.4
+  - name: MIREU
+    team: IE 
+    cost: 10.8
+  - name: PALAFOX
+    team: SR
+    cost: 9.2
+  - name: QUAD
+    team: FLY
+    cost: 13.9
+  - name: ROAMER
+    team: PAIN
+    cost: 11.0
+  - name: TUTSZ
+    team: FUR
+    cost: 11.4
+
+bottom:
+  - name: AYU
+    team: FUR
+    cost: 13.0
+  - name: BVOY
+    team: SR
+    cost: 10.9
+  - name: MASSU
+    team: FLY
+    cost: 14.1
+  - name: MORTTHEUS
+    team: VKS
+    cost: 12.3
+  - name: SNAKER
+    team: IE 
+    cost: 9.4
+  - name: TITAN
+    team: PAIN
+    cost: 13.3
+  - name: YEON
+    team: TL
+    cost: 12.7
+  - name: ZVEN
+    team: C9
+    cost: 14.5
+
+support:
+  - name: ACKERMAN
+    team: IE 
+    cost: 10.9
+  - name: BUSIO
+    team: FLY
+    cost: 15.2
+  - name: CEOS
+    team: SR
+    cost: 8.3
+  - name: COREJJ
+    team: TL
+    cost: 12.8
+  - name: JOJO
+    team: FUR
+    cost: 13.2
+  - name: KURI
+    team: PAIN
+    cost: 13.2
+  - name: TRYMBI
+    team: VKS
+    cost: 11.8
+  - name: VULCAN
+    team: C9
+    cost: 13.7
