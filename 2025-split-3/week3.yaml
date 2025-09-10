@@ -1,0 +1,271 @@
+matches:
+  - [FUR, VKS]
+  - [LOUD, ISG]
+  - [SR, 100T]
+  - [FLY, LYON]
+  - [LEV, FXW7]
+  - [RED, PAIN]
+  - [C9, TL]
+  - [DSG, DIG]
+
+top:
+  - name: BOAL
+    team: VKS
+    cost: 11.8
+  - name: BWIPO
+    team: FLY
+    cost: 18.6
+  - name: CASTLE
+    team: DSG
+    cost: 6.8
+  - name: CURTY
+    team: FXW7
+    cost: 7.1
+  - name: FNB
+    team: RED
+    cost: 12.8
+  - name: FUDGE
+    team: SR
+    cost: 9.0
+  # - name: GAKGOS 
+  #   team: FLY
+  #   cost: 7.5
+  - name: GUIGO
+    team: FUR
+    cost: 13.1
+  - name: IMPACT
+    team: TL
+    cost: 12.8
+  - name: PHOTON
+    team: DIG 
+    cost: 7.1
+  - name: ROBO
+    team: LOUD
+    cost: 11.5
+  - name: SNIPER
+    team: 100T
+    cost: 6.8
+  - name: SRTTY
+    team: LYON
+    cost: 7.0
+  - name: THANATOS
+    team: C9
+    cost: 15.9
+  - name: WIZER
+    team: PAIN
+    cost: 14.2
+  # - name: YAYO 
+  #   team: LYON
+  #   cost: 5.1
+  # - name: ZAMUDO 
+  #   team: LYON
+  #   cost: 7.0
+  - name: ZOEN
+    team: ISG 
+    cost: 7.2
+  - name: ZOTHVE
+    team: LEV
+    cost: 7.4
+
+jungle:
+  - name: BLABER
+    team: C9
+    cost: 17.7
+  - name: CARIOK
+    team: PAIN
+    cost: 15.4
+  - name: CONTRACTZ
+    team: SR
+    cost: 11.0
+  - name: DISAMIS
+    team: VKS
+    cost: 15.3
+  - name: DOOM
+    team: RED
+    cost: 9.9
+  - name: EXYU
+    team: DSG
+    cost: 5.4
+  - name: GRYFFINN
+    team: LOUD
+    cost: 8.0
+  - name: INSPIRED
+    team: FLY
+    cost: 16.2
+  - name: JOSEDEODO
+    team: ISG 
+    cost: 12.1
+  - name: ODDIELAN
+    team: LYON
+    cost: 9.4
+  - name: RIVER
+    team: 100T
+    cost: 10.5
+  - name: SCARY
+    team: LEV
+    cost: 8.1
+  - name: SHEIDAN
+    team: DIG 
+    cost: 5.7
+  - name: TATU
+    team: FUR
+    cost: 15.8
+  - name: YAMPI
+    team: FXW7
+    cost: 7.2
+  - name: YUUJI
+    team: TL
+    cost: 10.9
+
+mid:
+  - name: APA
+    team: TL
+    cost: 11.1
+  - name: DARKWINGS
+    team: DSG
+    cost: 7.8
+  - name: FUUU
+    team: FXW7
+    cost: 5.9
+  - name: HAUZ
+    team: LEV
+    cost: 7.4
+  - name: JOOL
+    team: LOUD
+    cost: 7.9
+  - name: KAZE
+    team: RED
+    cost: 11.6
+  - name: KEINE
+    team: DIG 
+    cost: 6.5
+  - name: LEZA
+    team: ISG 
+    cost: 9.9
+  - name: LOKI
+    team: C9
+    cost: 18.8
+  - name: MIREU
+    team: VKS
+    cost: 13.7
+  - name: PALAFOX
+    team: SR
+    cost: 10.3
+  - name: QUAD
+    team: FLY
+    cost: 16.2
+  - name: QUID
+    team: 100T
+    cost: 13.0
+  - name: ROAMER
+    team: PAIN
+    cost: 12.1
+  - name: SAINT
+    team: LYON
+    cost: 10.7
+  - name: TUTSZ
+    team: FUR
+    cost: 13.1
+
+bottom:
+  - name: AYU
+    team: FUR
+    cost: 14.7
+  - name: BVOY
+    team: SR
+    cost: 14.2
+  - name: CEO
+    team: LEV
+    cost: 8.7
+  - name: FBI
+    team: 100T
+    cost: 10.6
+  - name: HENA
+    team: LYON
+    cost: 9.9
+  - name: MARVIN
+    team: FXW7
+    cost: 6.7
+  - name: MASSU
+    team: FLY
+    cost: 17.8
+  - name: MORTTHEUS
+    team: VKS
+    cost: 14.9
+  - name: RABELO
+    team: RED
+    cost: 10.1
+  - name: RAHEL
+    team: DSG
+    cost: 6.6
+  - name: ROUTE
+    team: LOUD
+    cost: 10.5
+  - name: SNAKER
+    team: ISG 
+    cost: 8.8
+  - name: TITAN
+    team: PAIN
+    cost: 17.1
+  - name: TOMO
+    team: DIG 
+    cost: 7.1
+  - name: YEON
+    team: TL
+    cost: 16.5
+  - name: ZVEN
+    team: C9
+    cost: 19.3
+
+support:
+  - name: ACKERMAN
+    team: ISG 
+    cost: 9.2
+  - name: BUSIO
+    team: FLY
+    cost: 17.4
+  - name: CEOS
+    team: SR
+    cost: 10.9
+  - name: COREJJ
+    team: TL
+    cost: 15.4
+  - name: EYLA
+    team: 100T
+    cost: 9.6
+  - name: FROSTY
+    team: RED
+    cost: 12.1
+  - name: HUHI
+    team: DSG
+    cost: 6.8
+  - name: ISLES
+    team: DIG 
+    cost: 8.9
+  - name: JOJO
+    team: FUR
+    cost: 14.7
+  - name: KURI
+    team: PAIN
+    cost: 15.4
+  - name: LYONZ
+    team: LYON
+    cost: 10.6
+  - name: PRODELTA
+    team: FXW7
+    cost: 7.6
+  - name: REDBERT
+    team: LOUD
+    cost: 9.0
+  - name: SCAMBER
+    team: VKS
+    cost: 8.7
+  - name: TOPLOP
+    team: LEV
+    cost: 8.1
+  # - name: TRYMBI
+  #   team: VKS
+  #   cost: 13.1
+  - name: VULCAN
+    team: C9
+    cost: 19.1

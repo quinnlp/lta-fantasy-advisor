@@ -1,0 +1,112 @@
+matches:
+  - [100T, PAIN]
+  - [RED, SR]
+
+top:
+  # - name: BOAL
+  #   team: VKS
+  #   cost: 12.1
+  # - name: BWIPO
+  #   team: FLY
+  #   cost: 17.4
+  - name: DHOKLA 
+    team: 100T
+    cost: 8.5
+  - name: FNB
+    team: RED
+    cost: 12.3
+  - name: FUDGE
+    team: SR
+    cost: 9.5
+  # - name: GAKGOS 
+  #   team: FLY
+  #   cost: 6.1
+  # - name: SNIPER
+  #   team: 100T
+  #   cost: 6.8
+  - name: WIZER
+    team: PAIN
+    cost: 11.3
+
+jungle:
+  - name: CARIOK
+    team: PAIN
+    cost: 12.9
+  - name: CONTRACTZ
+    team: SR
+    cost: 10.9
+  # - name: DISAMIS
+  #   team: VKS
+  #   cost: 16.1
+  - name: DOOM
+    team: RED
+    cost: 11.9
+  # - name: INSPIRED
+  #   team: FLY
+  #   cost: 16.4
+  - name: RIVER
+    team: 100T
+    cost: 11.9
+
+mid:
+  - name: KAZE
+    team: RED
+    cost: 14.1
+  # - name: MIREU
+  #   team: VKS
+  #   cost: 12.8
+  - name: PALAFOX
+    team: SR
+    cost: 10.0
+  # - name: QUAD
+  #   team: FLY
+  #   cost: 15.7
+  - name: QUID
+    team: 100T
+    cost: 13.5
+  - name: ROAMER
+    team: PAIN
+    cost: 10.3
+
+bottom:
+  - name: BVOY
+    team: SR
+    cost: 13.6
+  - name: FBI
+    team: 100T
+    cost: 12.2
+  # - name: MASSU
+  #   team: FLY
+  #   cost: 17.1
+  # - name: MORTTHEUS
+  #   team: VKS
+  #   cost: 15.1
+  - name: RABELO
+    team: RED
+    cost: 13.4
+  - name: TITAN
+    team: PAIN
+    cost: 15.0
+
+support:
+  # - name: BUSIO
+  #   team: FLY
+  #   cost: 17.5
+  - name: CEOS
+    team: SR
+    cost: 11.6
+  - name: EYLA
+    team: 100T
+    cost: 11.7
+  - name: FROSTY
+    team: RED
+    cost: 14.6
+  - name: KURI
+    team: PAIN
+    cost: 12.5
+  # - name: SCAMBER
+  #   team: VKS
+  #   cost: 8.7
+  # - name: TRYMBI
+  #   team: VKS
+  #   cost: 12.5

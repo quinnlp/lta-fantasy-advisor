@@ -1,0 +1,110 @@
+matches:
+  - [FUR, IE]
+  - [SR, C9]
+  - [FUR, PAIN]
+  - [IE, PAIN]
+  - [SR, FLY]
+  - [C9, FLY]
+
+top:
+#  - name: BURDOL
+#    team: IE 
+#    cost: 7.0
+  - name: BWIPO
+    team: FLY
+    cost: 14.3
+  - name: FUDGE
+    team: SR
+    cost: 8.8
+  - name: GUIGO
+    team: FUR
+    cost: 12.1
+  - name: SUMMIT
+    team: IE
+    cost: 8.2
+  - name: THANATOS
+    team: C9
+    cost: 11.1
+  - name: WIZER
+    team: PAIN
+    cost: 13.0
+
+jungle:
+  - name: BLABER
+    team: C9
+    cost: 12.5
+  - name: CARIOK
+    team: PAIN
+    cost: 14.7
+  - name: CONTRACTZ
+    team: SR
+    cost: 9.4
+  - name: INSPIRED
+    team: FLY
+    cost: 14.0
+  - name: JOSEDEODO
+    team: IE 
+    cost: 11.0
+  - name: TATU
+    team: FUR
+    cost: 13.2
+
+mid:
+  - name: LOKI
+    team: C9
+    cost: 12.8
+  - name: MIREU
+    team: IE 
+    cost: 11.8
+  - name: PALAFOX
+    team: SR
+    cost: 9.2
+  - name: QUAD
+    team: FLY
+    cost: 13.3
+  - name: ROAMER
+    team: PAIN
+    cost: 11.3
+  - name: TUTSZ
+    team: FUR
+    cost: 10.8
+
+bottom:
+  - name: AYU
+    team: FUR
+    cost: 12.3
+  - name: BVOY
+    team: SR
+    cost: 10.5
+  - name: MASSU
+    team: FLY
+    cost: 13.9
+  - name: SNAKER
+    team: IE 
+    cost: 10.8
+  - name: TITAN
+    team: PAIN
+    cost: 13.9
+  - name: ZVEN
+    team: C9
+    cost: 14.4
+
+support:
+  - name: ACKERMAN
+    team: IE 
+    cost: 11.6
+  - name: BUSIO
+    team: FLY
+    cost: 14.8
+  - name: CEOS
+    team: SR
+    cost: 8.1
+  - name: JOJO
+    team: FUR
+    cost: 12.8
+  - name: KURI
+    team: PAIN
+    cost: 13.5
+  - name: VULCAN
+    team: C9
+    cost: 13.8

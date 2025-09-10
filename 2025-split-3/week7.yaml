@@ -1,0 +1,152 @@
+matches:
+  - [RED, LOUD]
+  - [100T, C9]
+  - [RED, PAIN]
+  - [LOUD, PAIN]
+  - [100T, SR]
+  - [C9, SR]
+  - [RED, VKS]
+  - [LOUD, VKS]
+  - [PAIN, VKS]
+  - [100T, FLY]
+  - [C9, FLY]
+  - [SR, FLY]
+
+top:
+  - name: BOAL
+    team: VKS
+    cost: 12.1
+  - name: BWIPO
+    team: FLY
+    cost: 17.4
+  - name: DHOKLA 
+    team: 100T
+    cost: 9.2
+  - name: FNB
+    team: RED
+    cost: 11.4
+  - name: FUDGE
+    team: SR
+    cost: 9.1
+  # - name: GAKGOS 
+  #   team: FLY
+  #   cost: 6.1
+  - name: ROBO
+    team: LOUD
+    cost: 12.6
+  # - name: SNIPER
+  #   team: 100T
+  #   cost: 6.8
+  - name: THANATOS
+    team: C9
+    cost: 14.9
+  - name: WIZER
+    team: PAIN
+    cost: 11.1
+
+jungle:
+  - name: BLABER
+    team: C9
+    cost: 15.9
+  - name: CARIOK
+    team: PAIN
+    cost: 13.2
+  - name: CONTRACTZ
+    team: SR
+    cost: 10.8
+  - name: DISAMIS
+    team: VKS
+    cost: 16.1
+  - name: DOOM
+    team: RED
+    cost: 11.5
+  - name: GRYFFINN
+    team: LOUD
+    cost: 11.3
+  - name: INSPIRED
+    team: FLY
+    cost: 16.4
+  - name: RIVER
+    team: 100T
+    cost: 12.4
+
+mid:
+  - name: JOOL
+    team: LOUD
+    cost: 11.0
+  - name: KAZE
+    team: RED
+    cost: 13.7
+  - name: LOKI
+    team: C9
+    cost: 16.9
+  - name: MIREU
+    team: VKS
+    cost: 12.8
+  - name: PALAFOX
+    team: SR
+    cost: 9.5
+  - name: QUAD
+    team: FLY
+    cost: 15.7
+  - name: QUID
+    team: 100T
+    cost: 14.6
+  - name: ROAMER
+    team: PAIN
+    cost: 10.9
+
+bottom:
+  - name: BVOY
+    team: SR
+    cost: 14.6
+  - name: FBI
+    team: 100T
+    cost: 12.0
+  - name: MASSU
+    team: FLY
+    cost: 17.1
+  - name: MORTTHEUS
+    team: VKS
+    cost: 15.1
+  - name: RABELO
+    team: RED
+    cost: 12.6
+  - name: ROUTE
+    team: LOUD
+    cost: 13.0
+  - name: TITAN
+    team: PAIN
+    cost: 15.2
+  - name: ZVEN
+    team: C9
+    cost: 17.8
+
+support:
+  - name: BUSIO
+    team: FLY
+    cost: 17.5
+  - name: CEOS
+    team: SR
+    cost: 11.6
+  - name: EYLA
+    team: 100T
+    cost: 12.4
+  - name: FROSTY
+    team: RED
+    cost: 14.4
+  - name: KURI
+    team: PAIN
+    cost: 12.5
+  - name: REDBERT
+    team: LOUD
+    cost: 12.6
+  # - name: SCAMBER
+  #   team: VKS
+  #   cost: 8.7
+  - name: TRYMBI
+    team: VKS
+    cost: 12.5
+  - name: VULCAN
+    team: C9
+    cost: 16.8
