@@ -5,78 +5,66 @@ matches:
   - [LYON, DIG]
 
 top:
-  - name: THANATOS
-    team: C9
-    cost: 21.0
+  - name: CASTLE
+    team: DSG
+    cost: 16.5
+  - name: DHOKLA 
+    team: LYON
+    cost: 17.5
   - name: FUDGE
     team: SR
     cost: 19.0
   - name: GAKGOS 
     team: FLY
     cost: 18.5
-  - name: PHOTON
-    team: DIG 
-    cost: 18.0
-  - name: DHOKLA 
-    team: LYON
-    cost: 17.5
-  - name: CASTLE
-    team: DSG
-    cost: 16.5
-  # - name: ZAMUDO 
-  #   team: LYON
-  #   cost: 16.0
-  - name: MORGAN
-    team: TL
-    cost: 16.0
   - name: IMPACT
     team: SEN
     cost: 14.5
+  - name: MORGAN
+    team: TL
+    cost: 16.0
+  - name: PHOTON
+    team: DIG 
+    cost: 18.0
+  - name: THANATOS
+    team: C9
+    cost: 21.0
+  # - name: ZAMUDO 
+  #   team: LYON
+  #   cost: 16.0
 
 jungle:
-  - name: INSPIRED
-    team: LYON
-    cost: 21.5
   - name: BLABER
     team: C9
     cost: 20.5
-  - name: JOSEDEODO
-    team: TL
-    cost: 16.0
-  - name: KRYRA
-    team: DSG
-    cost: 16.0
-  - name: HAMBAK
-    team: SEN
-    cost: 16.0
-  - name: GRYFFINN
-    team: FLY
-    cost: 16.0
   - name: CONTRACTZ
     team: SR
     cost: 14.5
   - name: EXYU
     team: DIG 
     cost: 13.5
+  - name: GRYFFINN
+    team: FLY
+    cost: 16.0
+  - name: HAMBAK
+    team: SEN
+    cost: 16.0
+  - name: INSPIRED
+    team: LYON
+    cost: 21.5
+  - name: JOSEDEODO
+    team: TL
+    cost: 16.0
+  - name: KRYRA
+    team: DSG
+    cost: 16.0
 
 mid:
-  - name: QUID
-    team: TL
-    cost: 24.0
-  - name: QUAD
-    team: FLY
-    cost: 19.5
-  - name: SAINT
-    team: LYON
-    cost: 18.0
   - name: APA
     team: C9
     cost: 17.5
   - name: CALLME
     team: DSG
-    cost: 17.0
-  - name: ZINIE
-    team: SR
     cost: 17.0
   - name: DARKWINGS
     team: SEN
@@ -84,81 +72,93 @@ mid:
   - name: PALAFOX
     team: DIG 
     cost: 13.0
+  - name: QUAD
+    team: FLY
+    cost: 19.5
+  - name: QUID
+    team: TL
+    cost: 24.0
+  - name: SAINT
+    team: LYON
+    cost: 18.0
+  - name: ZINIE
+    team: SR
+    cost: 17.0
 
 bottom:
-  - name: ZVEN
-    team: C9
-    cost: 22.0
-  - name: MASSU
-    team: FLY
-    cost: 20.5
-  - name: FBI
-    team: DIG 
-    cost: 19.5
-  - name: YEON
-    team: TL
-    cost: 18.5
-  - name: RAHEL
-    team: SEN
-    cost: 17.5
-  - name: SAJED
-    team: DSG
-    cost: 17.0
   - name: BERSERKER
     team: LYON
     cost: 17.0
   - name: BVOY
     team: SR
     cost: 15.5
+  - name: FBI
+    team: DIG 
+    cost: 19.5
+  - name: MASSU
+    team: FLY
+    cost: 20.5
+  - name: RAHEL
+    team: SEN
+    cost: 17.5
+  - name: SAJED
+    team: DSG
+    cost: 17.0
+  - name: YEON
+    team: TL
+    cost: 18.5
+  - name: ZVEN
+    team: C9
+    cost: 22.0
 
 support:
+  - name: CEOS
+    team: SR
+    cost: 14.0
   - name: COREJJ
     team: TL
     cost: 20.5
-  - name: VULCAN
-    team: C9
-    cost: 19.0
-  - name: LYONZ
-    team: DSG
-    cost: 18.5
   - name: CRYOGEN
     team: FLY
     cost: 16.0
+  - name: HUHI
+    team: SEN
+    cost: 15.0
   - name: IGNAR
     team: DIG 
     cost: 16.0
   - name: ISLES
     team: LYON
     cost: 15.5
-  - name: HUHI
-    team: SEN
-    cost: 15.0
-  - name: CEOS
-    team: SR
-    cost: 14.0
+  - name: LYONZ
+    team: DSG
+    cost: 18.5
+  - name: VULCAN
+    team: C9
+    cost: 19.0
 
 coach:
-  - name: SPAWN
-    team: TL
-    cost: 18.5
   - name: GOLDENGLUE
     team: SEN
     cost: 18.0
-  - name: REIGNOVER
-    team: LYON
-    cost: 15.0
+  - name: IDO
+    team: DSG
+    cost: 14.0
   - name: INERO
     team: C9
     cost: 15.0
+  - name: REIGNOVER
+    team: LYON
+    cost: 15.0
+  - name: REVEN
+    team: SR
+    cost: 14.5
+  - name: SPAWN
+    team: TL
+    cost: 18.5
   - name: SWIFFER
     team: DIG 
     cost: 15.0
   - name: THINKCARD
     team: FLY
     cost: 15.0
-  - name: REVEN
-    team: SR
-    cost: 14.5
-  - name: IDO
-    team: DSG
-    cost: 14.0
