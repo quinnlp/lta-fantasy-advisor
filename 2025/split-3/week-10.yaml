@@ -1,0 +1,68 @@
+matches:
+  - [100T, VKS]
+  - [100T, FLY]
+  - [VKS, FLY]
+
+top:
+  - name: BOAL
+    team: VKS
+    cost: 10.4
+  - name: BWIPO
+    team: FLY
+    cost: 17.3
+  - name: DHOKLA 
+    team: 100T
+    cost: 10.3
+  # - name: GAKGOS 
+  #   team: FLY
+  #   cost: 8.0
+  # - name: SNIPER
+  #   team: 100T
+  #   cost: 6.8
+
+jungle:
+  - name: DISAMIS
+    team: VKS
+    cost: 14.4
+  - name: INSPIRED
+    team: FLY
+    cost: 17.0
+  - name: RIVER
+    team: 100T
+    cost: 13.4
+
+mid:
+  - name: MIREU
+    team: VKS
+    cost: 12.4
+  - name: QUAD
+    team: FLY
+    cost: 16.1
+  - name: QUID
+    team: 100T
+    cost: 16.3
+
+bottom:
+  - name: FBI
+    team: 100T
+    cost: 14.5
+  - name: MASSU
+    team: FLY
+    cost: 18.6
+  - name: MORTTHEUS
+    team: VKS
+    cost: 14.2
+
+support:
+  - name: BUSIO
+    team: FLY
+    cost: 18.6
+  - name: EYLA
+    team: 100T
+    cost: 13.0
+  # - name: SCAMBER
+  #   team: VKS
+  #   cost: 8.7
+  - name: TRYMBI
+    team: VKS
+    cost: 11.2

@@ -8,21 +8,9 @@ NAME = "name"
 TEAM = "team"
 COST = "cost"
 
-NORTH_TEAMS = [
-            "100T",
-            "C9",
-            "DIG",
-            "DSG",
-            "FLY",
-            "LYON",
-            "SR",
-            "TL",
-        ]
-
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("filepath", help="yaml file containing the LTA fantasy state")
-    parser.add_argument("-n", "--north_only", action="store_true", default=False, help="exclude LTA south players")
+    parser.add_argument("filepath", help="yaml file containing the LCS fantasy state")
     parser.add_argument("-k", "--key", default=0, type=int, help="column index to sort role tables")
     parser.add_argument("-r", "--reverse", action="store_true", default=False, help="sort column in reverse order")
     args = parser.parse_args()
@@ -42,9 +30,8 @@ def main():
 
             blue_team = match[0]
             red_team = match[1]
-            if not args.north_only or (blue_team in NORTH_TEAMS and red_team in NORTH_TEAMS):
-                opponent_dict.setdefault(blue_team, []).append(red_team)
-                opponent_dict.setdefault(red_team, []).append(blue_team)
+            opponent_dict.setdefault(blue_team, []).append(red_team)
+            opponent_dict.setdefault(red_team, []).append(blue_team)
 
         opponent_table = []
         for team, opponent_list in opponent_dict.items():
@@ -54,28 +41,26 @@ def main():
         print(tabulate.tabulate(opponent_table, headers=[TEAM, "opponents"]))
         print()
 
-        for role in ["top", "jungle", "mid", "bottom", "support"]:
+        for role in ["top", "jungle", "mid", "bottom", "support", "coach"]:
             role_dict = dict()  # tracks the cost of each team's player for this role
             for player_dict in yamlfile[role]:
-                if not args.north_only or (player_dict[TEAM] in NORTH_TEAMS):
-                    if player_dict[TEAM] in role_dict.keys():
-                        print(f"Error: duplicate team '{player_dict[TEAM]}' in role '{role}'")
-                        exit(1)
+                if player_dict[TEAM] in role_dict.keys():
+                    print(f"Error: duplicate team '{player_dict[TEAM]}' in role '{role}'")
+                    exit(1)
 
-                    role_dict[player_dict[TEAM]] = player_dict[COST]
+                role_dict[player_dict[TEAM]] = player_dict[COST]
 
             role_table = []
             for player_dict in yamlfile[role]:
-                if not args.north_only or (player_dict[TEAM] in NORTH_TEAMS):
-                    cost_against = 0.0
-                    cost_against_str = str(player_dict[COST])
-                    for opponent in opponent_dict[player_dict[TEAM]]:
-                        cost_against += role_dict[opponent]
-                        cost_against_str += f" - {role_dict[opponent]}"
+                cost_against = 0.0
+                cost_against_str = str(player_dict[COST])
+                for opponent in opponent_dict[player_dict[TEAM]]:
+                    cost_against += role_dict[opponent]
+                    cost_against_str += f" - {role_dict[opponent]}"
 
-                    cost_against_str += " ="
+                cost_against_str += " ="
 
-                    role_table.append([player_dict[NAME], player_dict[TEAM], player_dict[COST], cost_against_str, player_dict[COST] - cost_against])
+                role_table.append([player_dict[NAME], player_dict[TEAM], player_dict[COST], cost_against_str, player_dict[COST] - cost_against])
 
             max_value = max(row[4] for row in role_table)
             for row in role_table:
